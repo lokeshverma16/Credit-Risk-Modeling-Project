@@ -119,3 +119,24 @@ Get instant results:
 
 Built as a machine learning project
 
+
+### To Create virtual Enviorment
+
+- Navigate to your project directory
+cd /Users/lokeshverma/Desktop/Project2
+
+- Create a virtual environment
+python3 -m venv venv
+
+- Activate it
+source venv/bin/activate
+
+- Install your dependencies
+pip install pandas numpy scikit-learn xgboost matplotlib seaborn streamlit joblib imbalanced-learn optuna
+
+- Run the app
+cd app
+streamlit run main.py
+
+- When you're done working:
+deactivate
