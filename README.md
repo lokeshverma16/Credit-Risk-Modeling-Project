@@ -2,6 +2,10 @@
 
 A machine learning project to predict loan default probability and calculate credit scores for loan applicants.
 
+## Live Demo
+
+🚀 **Try the app:** [https://credit-risk-modeling-project.streamlit.app/](https://credit-risk-modeling-project.streamlit.app/)
+
 ## Overview
 
 This project builds a credit risk model using customer, loan, and bureau data. The model predicts whether a customer will default on their loan and assigns them a credit score (300-900) with a rating (Poor/Average/Good/Excellent).
